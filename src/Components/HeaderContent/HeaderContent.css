@@ -1,0 +1,47 @@
+.header-content{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#C3C1C1,#f6f6f6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+    text-align: center;
+    padding: 110px;
+}
+.career{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+.navigate h1{
+    font-size: 3.75rem;
+    line-height: 0.7;
+    font-weight: 700;
+}
+.navigate h1 span{
+    color: #228B22;
+}
+.explore-btn{
+    background: #001C48;
+    color: #f6f6f6;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 0px 2rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+@media(max-width:600px){
+    .navigate h1{
+        font-size: 3.75rem;
+        line-height: 1.2;
+    }
+    .explore-btn{
+        padding: 5px 2rem;
+
+    }
+}

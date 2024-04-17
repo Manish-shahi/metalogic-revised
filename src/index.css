@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Exo", sans-serif;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    
+}
+html::-webkit-scrollbar{
+    width: 0.5vw;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #969696;
+}
+html::-webkit-scrollbar-track{
+    background-color: #F0EFEF;
+}
+
+:root{
+    --v1: #be91c6;
+    --v2: #8a65cc;
+    --v3: #5e30d9;
+    --transparentv3: #5e30d900;
+    --v4: #3b1895;
+    --s1: #fea798;
+    --s2: #ff846e;
+    --cloud: #fea798;
+}

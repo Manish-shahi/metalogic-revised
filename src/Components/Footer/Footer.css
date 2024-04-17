@@ -1,0 +1,151 @@
+.footer{
+    width: 100%;
+    background: url("/src/assets/asset\ 20.svg");
+    padding: 5rem 4rem 1.5rem 4rem;
+    color: white;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.metalogic{
+    flex: 1;
+    display: flex;
+    align-items: start;
+    gap: 6px;
+}
+.logo{
+    width: 48px;
+}
+.meta-text h2{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-family: "Exo";
+    color: #fff;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+.meta-text p{
+    font-size: 0.875rem;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.company{
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+.company p{
+    font-size: 0.75rem;
+}
+.services{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+.services p{
+    font-size: 0.75rem;
+
+}
+.join{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+.join p{
+    font-size: 0.75rem;
+
+}
+.social-logos{ 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+.whatsapp{
+    width: 42px;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    width: 42px;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta{
+    width: 42px;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin{
+    width: 42px;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    padding-top: 1rem;
+    font-size: 0.875rem;
+}
+
+@media(max-width:600px){
+    .footer-top{
+        flex-direction: column;
+        align-items: start;
+        gap: 3rem;
+
+    }
+    .meta-p{
+        margin-left: -110px;
+    }
+    .company{
+        align-items: start;
+    }
+    .services{
+        align-items: start;
+        padding-left: 0;
+    }
+    .join{
+        align-items: start;
+        padding-left: 0;
+    }
+    .copyright{
+        padding-top: 50px;
+        padding-left: 0;
+    }
+}
