@@ -10,3 +10,5 @@ To run this project locally, follow these steps:
 2. **Navigate into the project directory:**
 3. **Install dependencies: npm install**
 4. **Run the project: npm run dev**
+
+## See Live Project on github: https://manish-shahi.github.io/metalogic-deploy-live/ 
